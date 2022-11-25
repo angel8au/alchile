@@ -5,7 +5,8 @@
   --green: #487018;
   --brown: #683d1e;
   --orange: #dd7728;
-  --background-color: #f6d781;
+  /* --background-color: #f6d781; */
+  --background-color: #ffffff;
   --yellow: #ebba46;
   --white: #fff;
   --black: #000000;
@@ -670,9 +671,11 @@ ul::before {
 .c-order-hero__grid-child {
   flex: 1 1 150px; /*  straechin  */
   flex: 0 1 150px; /* No straechin  */
-
+  border-color: rgb(0 0 0);
   margin: 8px;
-
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-width: 2px;
+  border-style: solid;
   background-color: white; 
     padding: 24px; 
     border-radius: 24px; 
